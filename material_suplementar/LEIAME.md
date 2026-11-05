@@ -20,7 +20,7 @@
 | Duplicatas removidas (ID arXiv, DOI ou título normalizado) | −150 |
 | Registros únicos | 146 |
 | Excluídos na triagem por título e resumo (3 CE3, 8 ataque/detector de jailbreak, 15 recusa não é o objeto) | −26 |
-| Lidos na íntegra | 120 |
+| Verificados no texto completo (local de publicação, código/dados, acesso, retirada) | 120 |
 | Excluídos na elegibilidade (43 CI1, 9 CI3 texto não obtido, 2 CE2 retirados) | −54 |
 | **Incluídos** | **66** |
 
@@ -35,6 +35,7 @@
 
 ## Extração e qualidade
 
+- Extraídos do título e do resumo:
 - Categoria: mecanismo interno; método de treino ou intervenção; benchmark, métrica ou avaliação; estudo com usuários.
 - Tipo de recusa: epistêmica, por segurança ou ambas.
 - Qualidade (avaliada após a seleção, sem uso para exclusão; 0 ou 1 cada):
